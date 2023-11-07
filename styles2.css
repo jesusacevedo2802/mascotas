@@ -1,0 +1,105 @@
+html{
+	background-color: #EFEFEF;
+	scroll-behavior: smooth;
+	font-size: 40px;
+}
+header {
+	background-color: brown;
+	padding: 20px 15px;
+}
+
+header div{
+	display: flex;
+	justify-content: space-between;
+}
+.titulo {
+	font-weight: bolder;
+	font-size: x-large;
+	font-family: 'Lucida Sans';
+	color: white;
+	padding-top: 10px;
+}
+body{
+	margin: 0px;
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: antiquewhite;
+	font-family: 'Verdana';
+	font-size: x-large;
+	background-color: white;
+}
+
+nav a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	display: block;
+}
+nav ul li a:hover{
+	background-color: #FFABAB;
+	transition: background-color 0.3s ease;
+}
+p{
+	background-color: white;
+	border-radius: 15px;
+	margin: 15px;
+	padding: 10px;
+}
+img{
+	border-radius: 15px;
+}
+h1{
+	background-size: cover;
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Eras ITC';
+	font-size: 100px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+h2{
+	text-align: center;
+	background: goldenrod;
+	font-family: 'Eras ITC';
+	color: aliceblue;
+	padding: 1rem;
+}
+h3{
+	text-align: center;
+	background: goldenrod;
+	font-family: 'Eras ITC';
+	color: aliceblue;
+	padding: 1rem;
+}
+li{
+	background-color: white;
+	border-radius: 15px;
+	margin: 15px;
+	padding: 10px;
+	list-style: none;
+}
+ol{
+	padding: 0;
+}
+span{
+	font-weight: bold;
+}
+p, ol, li {
+	max-width: 500px;
+	margin: 15px auto;
+	font-family: 'Candara';
+
+}
+
+footer p{
+	text-align: center;
+	max-width: -moz-available;
+	border-radius: 0;
+	margin-bottom: 0;
+}

@@ -1,0 +1,141 @@
+html{
+	background-color: #EFEFEF;
+	scroll-behavior: smooth;
+	font-size: 40px;
+}
+header {
+	background-color: brown;
+	padding: 20px 15px;
+}
+
+header div{
+	display: flex;
+	justify-content: space-between;
+}
+.titulo {
+	font-weight: bolder;
+	font-size: x-large;
+	font-family: 'Lucida Sans';
+	color: white;
+	padding-top: 10px;
+}
+body{
+	margin: 0px;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: antiquewhite;
+	font-family: 'Verdana';
+	font-size: x-large;
+	background-color: white;
+}
+
+nav a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	display: block;
+}
+nav ul li a:hover{
+	background-color: #FFABAB;
+	transition: background-color 0.3s ease;
+}
+
+
+.dropdown:hover , .dropdown-content {
+	display: block;
+	cursor: pointer;
+}
+.dropdown-content {
+	position: absolute;
+	width: 100%;
+	display: none;	
+}
+
+
+h1{
+	width: 100%;
+	background-image: url("img/animals.jpg");
+	background-size: cover;
+	padding: 100px 0;
+	text-align: center;
+	color: #bef2f2;
+	font-family: 'Eras ITC';
+	font-size: xxx-large;
+	background-position: center center;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+
+p{
+	background-color: white;
+	border-radius: 15px;
+	margin: 15px;
+	padding: 10px;
+}
+p{
+	max-width: 500px;
+	margin: 15px auto;
+	font-family: 'Candara';
+	text-align: center;
+
+
+}
+h2{
+	margin: 0;
+	text-align: center;
+	background: goldenrod;
+	font-family: 'Eras ITC';
+	color: aliceblue;
+	padding: 1rem;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	
+}
+.mascota{
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 10px;
+	width: fit-content;
+}
+h3{
+	padding-top: 15px;
+	margin-top: 0;
+}
+.text{
+	padding: 15px;
+}
+footer p{
+	text-align: center;
+	max-width: -moz-available;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+@media(min-width: 755px){
+	nav ul {
+		
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		
+	}
+	h1{
+		background-size: cover;
+		padding: 7rem 0;
+	}
+	.dropdown-content{
+		display: flex;
+	}
+	.dropdown{
+		display: none;
+	}
+}
